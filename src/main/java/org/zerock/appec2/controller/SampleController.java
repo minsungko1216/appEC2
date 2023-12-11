@@ -11,4 +11,8 @@ public class SampleController {
     public String[] getArr() {
         return new String[]{"AAA", "BBB", "CCC"};
     }
+    @GetMapping("/who")
+    public String[] getwho(){
+        return new String[]{"202117005", "고민성"};
+    }
 }
