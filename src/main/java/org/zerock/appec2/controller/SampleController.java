@@ -13,6 +13,7 @@ public class SampleController {
     }
     @GetMapping("/who")
     public String[] getwho(){
+
         return new String[]{"202117005", "고민성"};
     }
 }
